@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "build": "^0.1.4",
+    "electron-app": "^1.0.0",
+    "python": "^0.0.4"
+  },
+  "devDependencies": {
+    "electron": "^31.3.1",
+    "electron-builder": "^24.13.3"
+  }
+}

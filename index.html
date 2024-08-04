@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24 Hour Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'FortniteFont';
+            src: url('fonts/FortniteFont.ttf') format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-background">
+            <video id="backgroundVideo" autoplay muted loop>
+                <source src="D:\background.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="countdown">
+            <h1 id="countdownTimer">24:00:00</h1>
+        </div>
+    </div>
+    
+    <!-- Play Button for Audio -->
+    <button id="playButton">Play Audio</button>
+    <audio id="backgroundAudio" loop>
+        <source src="D:\background-song.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
